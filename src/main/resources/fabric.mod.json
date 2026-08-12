@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "carlmod",
+  "version": "${version}",
+  "name": "Big Mouth Carl Mod",
+  "description": "Adds the Big Mouth Staff, Wild Carl, Tameable Carl and the Carl Dimension.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/carlmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.carlmod.CarlMod"
+    ]，
+       "client": [
+    "com.carlmod.CarlModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric-api": "*",
+    "minecraft": "1.20.4",
+    "java": ">=17"
+  }
+}

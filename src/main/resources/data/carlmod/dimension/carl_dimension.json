@@ -1,0 +1,26 @@
+{
+  "type": "carlmod:carl_dimension_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "carlmod:carl_biome",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:red_concrete",
+          "height": 4
+        },
+        {
+          "block": "minecraft:pink_concrete",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
